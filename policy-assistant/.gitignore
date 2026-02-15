@@ -1,0 +1,27 @@
+# Environment and secrets (never commit API keys)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Logs and debug
+*.log
+npm-debug.log*
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional: uncomment if you use local Supabase
+# .supabase/
